@@ -1,0 +1,274 @@
+body{
+    margin: 0px;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.logoimage{
+    height: 45px;
+}
+
+.logoimage2{
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+.navbar{
+    display: flex;
+    gap: 42%;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.navbarOption{
+    display: flex;
+    gap: 50px;
+    font-size: large;
+}
+
+.navbarContent{
+    margin-bottom: 10px;
+    margin-top: 14px;
+}
+
+.input_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.input_detailsbigtext{
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 550;
+    letter-spacing: 1.2px;
+    margin-bottom: 22px;
+    margin-top: 15px;
+}
+
+.input_detailssubtext{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+
+.input_start{
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.input_start:hover {
+    background-color: black;
+    color: white;
+}
+
+.flip-card{
+    margin-top: 70px;
+}
+
+.Allinput_detaildescription{
+    display: flex;
+    height: 370px;
+    justify-content: space-evenly;
+}
+
+.inputheading{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputdescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.inputlogo{
+    height: 40px;
+}
+
+.inputlogodiff{
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.inputlogodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.allinput_detail{
+    background-color: rgba(243, 243, 243, 0.654);
+    width: 250px;
+    height: 350px;
+}
+
+.flip-card {
+    background-color: transparent;
+    /* width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1; */
+    perspective: 1000px;
+    /* margin-left: 15px; */
+  }
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+    height: 400px;
+    
+}
+
+.input_divs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.input_rowdiv{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+
+select{
+    width: 120px;
+    height: 30px;
+}
+
+.input_div1{
+    display: flex;
+}
+
+.margin{
+    margin-left: 35px;
+    background-color: rgba(243, 243, 243, 0.654);
+    margin-right: 35px;
+    height: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Submit{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 6px;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+}
+
+.Submit:hover {
+    background-color: black;
+    color: white;
+}
+
+.CheckDrafts{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 18px;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+}
+
+.CheckDrafts:hover{
+    background-color: black;
+    color: white;
+}
+
+.avoidlayer {
+    height: 300px;
+}
+
+.generateddraftbigtext{
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 550;
+    letter-spacing: 1.2px;
+    margin-bottom: 22px;
+    margin-top: 10px;
+}
+
+.generateddraftsubtext{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.generated_draft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+/* section:last-of-type{
+    height: 600px;
+} */
+
+.returnreply{
+    margin-top: 500px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-right: 35px;
+    min-height: 20px;
+    max-height: 5000px;
+}
+
+.drafted{
+    margin-left: 35px;
+    margin-right: 35px;
+    min-height: 20px;
+    max-height: 5000px;
+}

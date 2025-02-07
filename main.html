@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img class="logoimage" src="first.jpeg">
+                <img class="logoimage2" src="second.jpeg">
+            </div>
+            <div>
+                <div class="navbarOption">
+                    <p class="navbarContent">Home</p>
+                    <p class="navbarContent">About</p>
+                    <p class="navbarContent">Resources</p>
+                    <p class="navbarContent">How It Works?</p>
+                    <p class="navbarContent">Contact</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="input_details">
+                <p class="input_detailsbigtext">Input Details</p>
+                <p class="input_detailssubtext">Input character details, genre preferences, plot elements, theme, etc. The AI </p>
+                <p class="input_detailssubtext">generates a script draft for their short film project.</p>
+                <center><button class="input_start" id="flipButton">Start Entering</button></center>
+            </div>
+        </section>
+
+        <section>
+            <div class="flip-card" id="flipCard">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="Allinput_detaildescription">
+                            <div class="allinput_detail">
+                                <div class="inputlogodiv">
+                                    <img class="inputlogo" src="globe.png">
+                                </div>
+                                <p class="inputheading">Genre Selection</p>
+                                <p class="inputdescription">Select the genre that best</p>
+                                <p class="inputdescription">fits your short film, setting</p>
+                                <p class="inputdescription">the tone and style of the</p>
+                                <p class="inputdescription">script.</p>
+                            </div>
+                            <div class="allinput_detail">
+                                <div class="inputlogodiv">
+                                    <img class="inputlogo" src="leaf.png">
+                                </div>
+                                <p class="inputheading">Setting Description</p>
+                                <p class="inputdescription">Describe the setting where</p>
+                                <p class="inputdescription">the story takes place,</p>
+                                <p class="inputdescription">providing context for the AI</p>
+                                <p class="inputdescription">to develop the script.</p>
+                            </div>
+                            <div class="allinput_detail">
+                                <div class="inputlogodiv">
+                                    <img class="inputlogodiff" src="eye.png">
+                                </div>
+                                <p class="inputheading">Plot Overview</p>
+                                <p class="inputdescription">Outline the plot points and</p>
+                                <p class="inputdescription">storyline to guide the AI in</p>
+                                <p class="inputdescription">crafting a cohesive script</p>
+                                <p class="inputdescription">for your short film.</p>
+                            </div>
+                            <div class="allinput_detail">
+                                <div class="inputlogodiv">
+                                    <img class="inputlogo" src="heart.png">
+                                </div>
+                                <p class="inputheading">Theme Introduction</p>
+                                <p class="inputdescription">Introduce the main theme</p>
+                                <p class="inputdescription">or message you want to</p>
+                                <p class="inputdescription">convey through your short</p>
+                                <p class="inputdescription">film, influencing the script's</p>
+                                <p class="inputdescription">direction.</p>
+                            </div>
+                        </div>
+                        <!-- <button class="input_start" id="flipButton">Start Entering</button> -->
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="margin">
+                            <div class="input_divs">
+                                <div class="input_rowdiv">
+                                    <div class="input_div">
+                                        <p>Genre</p>
+                                        <select id="Genre" required>
+                                            <option>Select</option>
+                                            <option>Action</option>
+                                            <option>Thiller</option>
+                                            <option>Horror</option>
+                                            <option>Romance</option>
+                                            <option>Comedy</option>
+                                            <option>Science Fiction</option>
+                                            <option>Adventure</option>
+                                            <option>Drama</option>
+                                            <option>Fantasy</option>
+                                            <option>Musicals</option>
+                                            <option>Mystery</option>
+                                            <option>Sports</option>
+                                            <option>Western</option>
+                                        </select>
+                                    </div>
+                                    <div class="input_div">
+                                        <p>Duration</p>
+                                        <select id="Duration" required>
+                                            <option>Select</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+                                            <option>13</option>
+                                            <option>14</option>
+                                            <option>15</option>
+                                            <option>16</option>
+                                            <option>17</option>
+                                            <option>18</option>
+                                            <option>19</option>
+                                            <option>20</option>
+                                            <option>21</option>
+                                            <option>22</option>
+                                            <option>23</option>
+                                            <option>24</option>
+                                            <option>25</option>
+                                            <option>26</option>
+                                            <option>27</option>
+                                            <option>28</option>
+                                            <option>29</option>
+                                            <option>30</option>
+                                            <option>31</option>
+                                            <option>32</option>
+                                            <option>33</option>
+                                            <option>34</option>
+                                            <option>35</option>
+                                        </select>
+                                    </div>
+                                    <div class="input_div1">
+                                        <div class="character">
+                                            <p>Male</p>
+                                            <select required>
+                                                <option>0</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                            </select>
+                                        </div>
+                                        <div class="character">
+                                            <p>Female</p>
+                                            <select required>
+                                                <option>0</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input_rowdiv">
+                                    <div class="input_div">
+                                        <p>Theme</p>
+                                        <textarea  placeholder="Theme" cols="40" required></textarea>
+                                    </div>
+                                    <div class="input_div">
+                                        <p>Opening Line(if any)</p>
+                                        <textarea  placeholder="Opening Line" cols="50"></textarea>
+                                    </div>
+                                </div>
+                                <div class="input_rowdiv">
+                                    <div class="input_div">
+                                        <p>Location Restriction(if any)</p>
+                                        <textarea  placeholder="Restriction" cols="40"></textarea>
+                                    </div>
+                                    <div class="input_div">
+                                        <p>Plot</p>
+                                        <textarea  placeholder="Describe Plot" cols="50"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input_divs">
+                                <center><button class="Submit">Submit</button></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="returnreply"></div>
+
+        <section class="avoidlayer">
+            <div class="generated_draft">
+                <p class="generateddraftbigtext">Generated Drafts</p>
+                <p class="generateddraftsubtext">View the drafts generated based on your input to see how the AI has transformed your</p>
+                <p class="generateddraftsubtext">details into a script.</p>
+                <center><button class="CheckDrafts">Check Drafts</button></center>
+            </div>
+        </section>
+
+        <div class="drafted"></div>
+
+        <!-- <section>
+
+        </section> -->
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+body{
+    margin: 0px;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.logoimage{
+    height: 45px;
+}
+
+.logoimage2{
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+.navbar{
+    display: flex;
+    gap: 42%;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.navbarOption{
+    display: flex;
+    gap: 50px;
+    font-size: large;
+}
+
+.navbarContent{
+    margin-bottom: 10px;
+    margin-top: 14px;
+}
+
+.bigtext{
+    /* font-weight: 1000; */
+    font-size: 90px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    background: linear-gradient(to right, #000000, #6A5ACD, #000000); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.firstseenpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 0) 50%), linear-gradient(to bottom,#F5F5F5,#c1aad3), #c1aad3;
+    background-size: cover;
+    background-position: right; 
+}
+
+.subtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: sans-serif;
+    margin-bottom: 3px;
+}
+
+.subtext2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 0px;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.buttonn{
+    height: 45px;
+    width: 90px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 0) 50%), linear-gradient(to bottom, #F5F5F5, #c1aad3), #c1aad3;
+    background-size: cover;
+    background-position: right; 
+}
+
+.service{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.OurServices{
+    display: flex;
+    height: 370px;
+    justify-content: space-evenly;
+}
+
+.serviceheading{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicedescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.servicelogo{
+    height: 45px;
+}
+
+.servicelogodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceheading2{
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceheadingd{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+    margin-top: 18px;
+}
+
+.servicebuttonn1{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 14px;
+    border: 1px solid black;
+}
+
+.servicebuttonn2{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    margin-top: 14px;
+    border: 1px solid black;
+}
+
+.servicebuttonn3{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    margin-top: 14px;
+    border: 1px solid black;
+}
+
+.servicebuttonn4{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    margin-top: 14px;
+    border: 1px solid black;
+}
+
+.clienttest{
+    height: 400px;
+    display: flex;
+    margin: 80px;
+    margin-left: 100px;
+}
+
+.clients{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 550;
+    width: 50%;
+}
+
+.textmain{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.quotelogo{
+    width: 50px;
+}
+
+.review{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.backgroundimage{
+    /* background-color: #c1aad3; */
+    background: linear-gradient(to bottom, #c1aad3, #F5F5F5);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 770px;
+}
+
+.whitebackground{
+    background-color: white;
+    width: 87%;
+    margin-top: 85px;
+    height: 600px;
+}
+
+.getintouch{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 550;
+    margin-left: 55px;
+}
+
+.collaboration{
+    margin-left: 180px;
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.Contact_Ustext{
+    font-size: 30px;
+    font-weight: 550;
+    margin-left: 55px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+#name{
+    width: 47%;
+    height: 25px;
+    font-size: 15px;
+}
+
+#issue{
+    height: 90px;
+    font-size: 15px;
+    width: 95%;
+}
+
+#email{
+    height: 25px;
+    width: 47%;
+    font-size: 15px;
+}
+
+.diff_divs{
+    margin-top: 15px;
+    margin-left: 55px;
+}
+
+.inquiries{
+    display: flex;
+}
+
+.Contact_Us{
+    width: 100%;
+}
+
+.Contact_UsSubmit{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    margin-top: 14px;
+    border: 1px solid black;
+}
+
+.footerr{
+    /* background-color: #62556e; */
+    background: linear-gradient(to bottom , #F5F5F5, #c1aad3);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subfooter{
+    background-color: #62556e;
+    width: 87%;
+    /* margin-top: 85px; */
+    height: 435px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footercontent{
+    margin: 70px;
+}
+
+#icon{
+    width: 50px;
+}
+
